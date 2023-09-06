@@ -6,9 +6,13 @@ POST http://localhost:3000/pokemon
 Content-Type: application/json
 
 {
-    "name": "ditto",
+    "name": "dex",
     "types": "normal",
     "moves": [
         "transform"
     ]
 }
+
+### Get Pokemon
+
+GET http://localhost:3000
