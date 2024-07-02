@@ -14,7 +14,6 @@ async function ls (folder) {
 
   const filesPromises = files.map(async (file) => {
     const filePath = path.join(folder, file)
-
     let stats
     try {
       stats = await fs.stat(filePath) // file information
